@@ -1,7 +1,7 @@
 {
-	"name": "Astro Theme Cactus Demo",
-	"short_name": "Astro_Cactus",
-	"description": "Starter blog site for Astro",
+	"name": "Caglar Sayin",
+	"short_name": "caglar.cc",
+	"description": "Welcome to Caglar's Time Capsule, a blog dedicated to preserving and sharing the historical records of Earth",
 	"icons": [
 		{
 			"src": "/192x192.png",
