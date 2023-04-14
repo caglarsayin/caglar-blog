@@ -14,11 +14,11 @@ interface SiteConfig {
 
 export const siteConfig: SiteConfig = {
 	// Used as both a meta property (src/components/BaseHead.astro L:31 + L:49) & the generated satori png (src/pages/og-image/[slug].png.ts)
-	author: "Chris Williams",
+	author: "Caglar Sayin",
 	// Meta property used to construct the meta title property, found in src/components/BaseHead.astro L:11
-	title: "Astro Theme Cactus",
+	title: "Caglar's Time Capsule: Historical Records of a Life",
 	// Meta property used as a default description meta property
-	description: "An opinionated starter theme for Astro",
+	description: "Welcome to Caglar's Time Capsule, a blog dedicated to preserving and sharing the historical records of Earth",
 	// HTML lang property, found in src/layouts/Base.astro L:18
 	lang: "en-GB",
 	// Meta property, found in src/components/BaseHead.astro L:42
