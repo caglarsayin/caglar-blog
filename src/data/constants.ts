@@ -17,5 +17,6 @@ export const MENU_LINKS = [
 export const SOCIAL_LINKS = {
 	github: "https://github.com/caglarsayin",
 	twitter: "https://twitter.com/CaglarSayin",
+	researchgate: "https://www.researchgate.net/profile/Caglar-Sayin",
 	email: "me@caglar.cc",
 };
