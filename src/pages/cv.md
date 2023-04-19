@@ -1,6 +1,11 @@
 ---
-layout: ../layouts/Base.astro
-title: CV
+
+
+title: "Caglar's CV"
+description: "CV 2023"
+layout: "../layouts/BasePage.astro"
+publishDate: "01 Feb 2023"
+tags: ["cv", "caglarsayin", "Resume"]
 ---
 
 ## Education
@@ -24,8 +29,16 @@ Isik University, Istanbul, Turkey
 - **Description:** Surveyed firewall bypassing techniques and proposed a practical and distributed DNS tunneling method to enhance communication anonymity.
 
 ## Related Experience
-- **Staff Security Engineer, Delivery Hero SE, Berlin**  
-Responsible for application security, leader of Application Security Guild, pentester, developer, and architect for automation of security, security architect for services developed, and technical leader in PCI/DSS projects.
+- **Staff Security Engineer, Delivery Hero SE, Berlin**
+    * Conduct penetration testing to identify vulnerabilities and improve security posture.
+    * Develop automated SAST tool(with Semgrep) to scan all the Git "Pull Requests" with Kubernetes and SAST and report over Github UI and interract with developers.
+    * Develop automated web scanner(with Nuclei) for the all the public instance on Cloudflare, AWS, GCloud etc with Kubernetes.
+    * Lead the security tooling development and build lots of gadgets in the project called InspectorGadget.
+    * Design and implement security architecture that aligned with industry best practices.
+    * Responsible for the entire application security function until the team was created.
+    * Established the Application Security Guild and organized bi-weekly "Hack and Pizza" events.
+    * Led the design of secure services and provided technical leadership for the implementation of PCI/DSS projects.
+    * Gained extensive experience in Delivery Hero, which is one of the fastest-growing and innovative technology companies in the food delivery industry.
 
 - **Senior Application Security Engineer, ResearchGate GmbH, Berlin**  
 Responsible for application security, identifying emerging vulnerabilities, risks, and threats during design iterations and providing appropriate countermeasures, reviewing and testing open source and proprietary code, building custom tools, scripts, libraries, and platforms to test security and improve security, and delivering relevant application security training and mentorship to development teams.
@@ -49,18 +62,12 @@ Worked on Netsparker core project, a web application security scanner to automat
 Conducted security auditing, penetration testing, and black-box analysis of closed systems.
 
 ## Related Computer Skills
-- Python, PHP, C/C++, GoLANG, Forth, JS, Assembly (x86, ARM, MIPS)
-- Web development frameworks like Django, Web2py, Flask, Rails, and PHPSynfony.
-
-## Interests
-Photography, sailing/surfing and navigation, free software philosophy, Linux, bicycling, camping, diving, trekking, and travelling.
-
-## Organizations
-IEEE, LKD (Turkish Linux supporters association), FSF-E, CMAS, and OSEC.
+- Python, PHP, C, Rust, GoLANG, Forth, JS, Assembly (x86, ARM, MIPS)
+- Web development frameworks like Django, Web2py, Flask, Rails, and PHPSynfony
 
 ## Personal Projects
 - Chrome extension malware - JS
-- Linux kernel mode malware - C
+- Linux kernel mode malware - Rust
 - PoC hybridmorphic(Poly/Metamorphic) obfuscation engine - Assembly x86
 - Several Burp Extension
 - BooFuzz(Suley) Contribution
