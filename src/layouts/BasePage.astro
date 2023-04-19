@@ -1,0 +1,25 @@
+---
+import PageLayout from "@/layouts/Base";
+import { Image } from "@astrojs/image/components";
+import aboutImg from "../assets/about-astro.png";
+
+
+
+interface Props {
+	post: CollectionEntry<"post">;
+}
+
+
+const {frontmatter} = Astro.props;
+---
+
+<PageLayout meta={frontmatter}>
+	<div class="space-y-6">
+
+		<h1 class="title">{frontmatter.title}</h1>
+			<div
+				class="prose prose-sm prose-cactus mt-12 prose-headings:font-semibold prose-headings:before:absolute prose-headings:before:-ml-4 prose-headings:before:text-accent prose-headings:before:content-['#'] prose-th:before:content-none">
+				<slot />
+			</div>	
+		</div>
+</PageLayout>
