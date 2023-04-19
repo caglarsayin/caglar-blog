@@ -1,3 +1,8 @@
+---
+title: CV
+layout: ../layouts/Base.astro
+---
+
 ## Education
 - **M.S, Information Security**  
 Norwegian Information Security Lab, Norwegian University of Science and Technology, Gjovik, Norway
