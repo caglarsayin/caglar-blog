@@ -71,5 +71,4 @@ Conducted security auditing, penetration testing, and black-box analysis of clos
 - PoC hybridmorphic(Poly/Metamorphic) obfuscation engine - Assembly x86
 - Several Burp Extension
 - BooFuzz(Suley) Contribution
-- Multi-dimensional covert channel tunneling - Python
-- Personal
+- PoC Multi-dimensional covert channel tunneling - Python
